@@ -9,94 +9,137 @@
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header class="header">
-    <nav class="navbar">
-      <h1 class="logo">TuneHub</h1>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Search</a></li>
-        <li><a href="#">Library</a></li>
-        <li><a href="#">Premium</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- Sidebar Navigation -->
+  <aside class="sidebar">
+    <h1 class="logo">TuneHub</h1>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Search</a></li>
+      <li><a href="#">Library</a></li>
+      <li><a href="#">Premium</a></li>
+    </ul>
+  </aside>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Unlimited Music, Anytime, Anywhere</h2>
-      <p>Discover millions of tracks and podcasts, all in one place.</p>
-      <a href="#" class="hero-button">Get Started</a>
-    </div>
-  </section>
+  <!-- Main Content Area -->
+  <main class="main-content">
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2 class="hero-title">Welcome to TuneHub</h2>
+      <p>Discover music, podcasts, and playlists all in one place.</p>
+    </section>
 
-  <!-- Popular Artists Section -->
-  <section class="artists">
-    <h2 class="section-title">Popular Artists</h2>
-    <div class="artist-grid">
-      <div class="artist-item">
-        <img src="https://variety.com/wp-content/uploads/2021/09/Drake-publicity3-2021.jpg?w=1000&h=562&crop=1&resize=910%2C511" alt="Artist 1">
-        <h3>Drake</h3>
-      </div>
-      <div class="artist-item">
-        <img src="https://i.pinimg.com/564x/4b/e8/a9/4be8a94269e5285979dcac10d67743b1.jpg" alt="Artist 2">
-        <h3>Billie Eilish</h3>
-      </div>
-      <div class="artist-item">
-        <img src="https://www.atlanticrecords.com/sites/g/files/g2000015596/files/styles/artist_image_detail/public/2023-01/080822_BB-ATLWebsite_300x300.png?itok=0HgtcAXi" alt="Artist 3">
-        <h3>Burna Boy</h3>
-      </div>
-      <div class="artist-item">
-        <img src="https://ew.com/thmb/EWkFUAVhBueH-IRn-uZCIDWG9ys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/The-Weeknd-c1ee39aa91df4baf91560c1b07e71ad8.jpg" alt="Artist 4">
-        <h3>The Weekend</h3>
-      </div>
-    </div>
-  </section>
+    <!-- Popular Artists Section -->
+    <section class="artists">
+      <h2>Popular Artists</h2>
+      <div class="artist-grid">
+        <!-- Template for Artist Item (Repeat for each item) -->
+        <div class="artist-item">
+          <img src="https://variety.com/wp-content/uploads/2021/09/Drake-publicity3-2021.jpg?w=1000&h=562&crop=1&resize=910%2C511" alt="Drake">
+          <h3>Drake</h3>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="artist-item">
+          <img src="https://ew.com/thmb/9jZKwyWKxTXUKReiQd325-glcZQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/billie-eilish-061024-c8b76ecb91224aefbc3860d03f658894.jpg" alt="Billie Eilish">
+          <h3>Billie Eilish</h3>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="artist-item">
+          <img src="https://www.atlanticrecords.com/sites/g/files/g2000015596/files/styles/artist_image_detail/public/2023-01/080822_BB-ATLWebsite_300x300.png?itok=0HgtcAXi" alt="Burna Boy">
+          <h3>Burna Boy</h3>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="artist-item">
+          <img src="https://ew.com/thmb/EWkFUAVhBueH-IRn-uZCIDWG9ys=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/The-Weeknd-c1ee39aa91df4baf91560c1b07e71ad8.jpg" alt="The Weekend">
+          <h3>The Weeknd</h3>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="artist-item">
+          <img src="https://www.thefamouspeople.com/profiles/images/rick-ross-2.jpg" alt="Rick Ross">
+          <h3>Rick Ross</h3>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="artist-item">
+          <img src="https://s3.amazonaws.com/media.thecrimson.com/photos/2021/10/18/210955_1352140.jpg" alt="Adele">
+          <h3>Adele</h3>
+          <button class="play-btn">Play</button>
+        </div>
 
-  <!-- Featured Albums Section -->
-  <section class="albums">
-    <h2 class="section-title">New Albums</h2>
-    <div class="album-grid">
-      <div class="album-item">
-        <img src="https://via.placeholder.com/200" alt="Album 1">
-        <h3>Album Title 1</h3>
-        <p>by Artist 1</p>
-      </div>
-      <div class="album-item">
-        <img src="https://via.placeholder.com/200" alt="Album 2">
-        <h3>Album Title 2</h3>
-        <p>by Artist 2</p>
-      </div>
-      <div class="album-item">
-        <img src="https://via.placeholder.com/200" alt="Album 3">
-        <h3>Album Title 3</h3>
-        <p>by Artist 3</p>
-      </div>
-    </div>
-  </section>
 
-  <!-- Popular Playlists Section -->
-  <section class="playlists">
-    <h2 class="section-title">Popular Playlists</h2>
-    <div class="playlist-grid">
-      <div class="playlist-item">
-        <img src="https://resources.tidal.com/images/ec535484/69fe/4f18/a61b/1dfa20a3bb8e/640x640.jpg" alt="Playlist 1">
-        <h3>Chill Vibes</h3>
-        <p>Relax and unwind</p>
+    
+  
+
+
+
+  </div>
+</section>
+       
+
+    <!-- Featured Albums Section -->
+    <section class="albums">
+      <h2>New Albums</h2>
+      <div class="album-grid">
+        <!-- Template for Album Item (Repeat for each item) -->
+        <div class="album-item">
+          <img src="https://cdn1.dustygroove.org/images/products/s/sza~~~~~~~~_sos~~~~~~_101b.jpg" alt="SOS">
+          <h3>SOS</h3>
+          <p>SZA</p>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="album-item">
+          <img src="https://media.pitchfork.com/photos/663ce9b52ebd705c5275cec2/1:1/w_320,c_limit/Gunna-%20One%20of%20Wun.jpeg" alt="One of Wun">
+          <h3>One of Wun</h3>
+          <p>Gunna</p>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="album-item">
+          <img src="https://chirhoan.com/wp-content/uploads/2022/10/rs_1024x1024-220828210510-1024-taylor-swift-midnight-1.jpg" alt="Midnights">
+          <h3>Midnights</h3>
+          <p>Taylor Swift</p>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="album-item">
+          <img src="https://media.pitchfork.com/photos/648a0b39482bce6a0f832185/1:1/w_320,c_limit/Asake-Work-of-Art.jpg" alt="Work of Art">
+          <h3>Work of Art </h3>
+          <p>Asake</p>
+          <button class="play-btn">Play</button>
+        </div>
+        <!-- Add more album items as needed -->
       </div>
-      <div class="playlist-item">
-        <img src="https://via.placeholder.com/200" alt="Playlist 2">
-        <h3>Top Hits</h3>
-        <p>Latest hits worldwide</p>
+    </section>
+
+    <!-- Popular Playlists Section -->
+    <section class="playlists">
+      <h2>Popular Playlists</h2>
+      <div class="playlist-grid">
+        <!-- Template for Playlist Item (Repeat for each item) -->
+        <div class="playlist-item">
+          <img src="https://resources.tidal.com/images/ec535484/69fe/4f18/a61b/1dfa20a3bb8e/640x640.jpg" alt="Playlist 1">
+          <h3>Chill Vibes</h3>
+          <p>Relax and unwind</p>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="playlist-item">
+          <img src="https://cdn-profiles.tunein.com/s221182/images/logod.png?t=637726155150000000" alt="Playlist 2">
+          <h3>Top Hits</h3>
+          <p>Latest hits worldwide</p>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="playlist-item">
+          <img src="https://images.globalplayer.com/images/659809?width=450&signature=3YWKhNI39sVSZ291Rrx21UZC2-A=" alt="Playlist 3">
+          <h3>Throwback</h3>
+          <p>Best of the past decades</p>
+          <button class="play-btn">Play</button>
+        </div>
+        <div class="playlist-item">
+          <img src="https://media.timeout.com/images/106001766/1024/576/image.webp" alt="Playlist 4">
+          <h3>Road Trip</h3>
+          <p>Perfect for long drives</p>
+          <button class="play-btn">Play</button>
+        </div>
+        <!-- Add more playlist items as needed -->
       </div>
-      <div class="playlist-item">
-        <img src="https://via.placeholder.com/200" alt="Playlist 3">
-        <h3>Throwback</h3>
-        <p>Best of the past decades</p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
 </body>
 </html>
